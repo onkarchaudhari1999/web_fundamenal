@@ -1,0 +1,83 @@
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<form>
+
+    <body style="background-color:grey;">
+
+        <div align = center style="border: 4px solid blue;">
+            </br>
+            </br>
+            
+            
+            <h1 style="border: solid 4px;">Application Form</h1>
+            </br>
+            </br>
+            </br>
+            </br>
+            <label><b>Full Name</b> </label>
+            <input type="text" placeholder="Enter Full name" name="first" required>
+
+            <label><b>Enter Email</b></label>
+            <input type="email" placeholder="Enter Email" name="email" required>
+            </br>
+            </br>
+            <label><b>Password</b></label>
+            <input type="password" placeholder="enter password" required minilength="8" maxlength="12" name="pwd">
+             <br>
+            <br>
+
+            <div><input type="radio" name="sex" value="male" checked>Male <input type="radio" name="sex"
+                    value="female">Female</div><br><br>
+            <div> <label style="color: yellowgreen;">Age</label> <input type="range" min="12" max="90"></div><br>
+
+            
+            </br>
+            <label><b>City</b></label>
+            <input type="text" placeholder="City"  name="city" /><br>
+            <br>
+            <label><b>Permanant Address</b></label>
+            <input type="text" placeholder="Enter your Adress here" size="60px">
+            <br>
+            <br>
+            <label><b>Enter Marks</b></label>
+            <input type="number" placeholder="marks" name="college marks" min="0" max="100" required>
+            <label><b>Highest Qualification</b></label>
+            <select name="Qualification" >
+                <option value="1">B.E.</option>
+                <option value="2">BTech</option>
+                <option value="3">MTech</option>
+            </select>
+            </br>
+            </br>
+            </br>
+
+            <label><b>Select Course</b></label>
+            <select name="course">
+                <option value="01">JAVA</option>
+                <option value="02">JavaSript</option>
+                <option value="03">Pearl</option>
+                <option value="04">C#</option>
+                <option value="05">Full Stack</option>
+            </select>
+            
+            <label><b>Mobile</b></label>
+            <input type="text" placeholder name="Enter mobile number " maxlength="10" minilength="10" name="phone"
+                required>
+            </br>
+            </br>
+
+            <button type="submit" onclick="func()">Submit</button>
+            <br>
+            <br>
+        </div>
+        
+
+</form>
+
+</body>
+
+</html>
