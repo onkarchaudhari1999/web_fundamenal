@@ -1,0 +1,62 @@
+nav{
+    width: 100%;
+    margin-top: 0%;
+}
+#image1{
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+span{
+    width: auto;
+    line-height:50px;
+    margin-left: 20px;
+    color: grey;
+}
+h3{
+    color: grey;
+    line-height:10px;
+    float: left;
+    text-align: center;
+    width: 70%;
+    margin-top: 0%;
+    text-align: left;
+}
+#moto{
+    color: grey;
+}
+#image2{
+    width: 300px;
+    height: 300px;
+    border-radius: 100px;
+}
+#middleL{
+    float: left;
+    width: 50%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin-top:150px;
+}
+#middleR{
+    float:right;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+#bluebutton{
+    color: white;
+    background-color: rgb(50, 50, 245);
+    padding: 10px 30px;
+}
+#whitebutton{
+    color: rgb(75, 74, 74);
+    padding: 9px 40px;
+    margin-left: 30px;
+}
+#middle{
+    margin-bottom: 500px;
+}
+#last{
+    margin-left: 200px;
+    margin-bottom: 300px;
+}
