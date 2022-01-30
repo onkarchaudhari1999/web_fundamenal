@@ -1,0 +1,33 @@
+td {
+    border: none;
+    padding: 10px;
+  }
+  tr {
+    border: none;
+    padding: 20px;
+  }
+  
+ th{
+   background-color: rgb(16, 17, 15);
+   color: orangered;
+   padding: 15px;
+ }
+ tr:nth-child(even){
+   background-color: burlywood;
+   color: blue;
+ }
+ tr:nth-child(odd){
+ color: purple;
+  background-color: skyblue;
+}
+#searchbar{
+  text-align: center;
+  padding: 30px;
+  background-color: rgb(216, 216, 110);
+  position: sticky;
+  top: 0px;
+}
+input{
+  height: 25px;
+  width: 250px;
+}
